@@ -1,0 +1,28 @@
+.page {
+    color: #757575;
+    background-color: #2f303a;
+}
+.list {
+    list-style: none;
+}
+.header {
+    background-color: #ffffff;
+}
+
+.link {
+    color: #212121;
+}
+.link-logo {
+    color: #2196F3;
+}
+.nav-page .link:hover,
+.nav-page .link:focus {
+    color: #2196F3;
+}
+
+.contact {
+    color: #757575;
+}
+.contact:hover, .contact:focus {
+    color: #2196F3;
+}
