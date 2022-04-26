@@ -26,7 +26,8 @@
     color: var(--accent-color);
 }
 .nav-page .link:hover,
-.nav-page .link:focus {
+.nav-page .link:focus,
+.nav-page .link.current {
     color: var(--accent-color);
 }
 
@@ -83,4 +84,11 @@
 .link-address:hover, .link-address:focus,
 .link-contact:hover, .link-contact:focus {
     color: var(--accent-color);
+}
+.filter-link {
+    color: var(--title-text-color);
+}
+.filter-link:hover, .filter-link:focus {
+    background-color: var(--accent-color);
+    color: var(--third-background-color);
 }
