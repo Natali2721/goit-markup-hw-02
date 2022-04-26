@@ -4,11 +4,12 @@
     --accent-color: #2196f3;
     --primary-background-color: #E5E5E5;
     --second-background-color: #2F303A;
-    --third-background-color: #ffffff;
+    --primary-white-color: #ffffff;
+    --third-background-color: #f5f4fa;
 
 }
 
-.page {
+body {
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
 }
@@ -16,7 +17,7 @@
     list-style: none;
 }
 .header {
-    background-color: var(--third-background-color);
+    background-color: var(--primary-white-color);
 }
 
 .link {
@@ -42,11 +43,11 @@
     background: var(--second-background-color);
 }
 .hero-title {
-    color: #ffffff;
+    color: var(--primary-white-color);
     
 }
 .hero-btn {
-    color: #ffffff;
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
 
@@ -58,13 +59,13 @@
     color:var(--title-text-color);
 }
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--third-background-color);
 }
 .team-title {
     color: var(--title-text-color);
 }
 .team-foto {
-    background-color: var(--third-background-color);
+    background-color: var(--primary-white-color);
 }
 .foto-title {
     color: var(--title-text-color);
@@ -73,10 +74,10 @@
     background-color: var(--second-background-color);
 }
 .footer .logo {
-    color: #ffffff;
+    color: var(--primary-white-color);
 }
 .link-address {
-    color: #ffffff;
+    color: var(--primary-white-color);
 }
 .link-contact {
     color: rgba(255, 255, 255, 0.6);
@@ -85,10 +86,20 @@
 .link-contact:hover, .link-contact:focus {
     color: var(--accent-color);
 }
-.filter-link {
+.btn {
+    background-color: var(--third-background-color);
     color: var(--title-text-color);
 }
-.filter-link:hover, .filter-link:focus {
+.btn:hover, .btn:focus {
     background-color: var(--accent-color);
-    color: var(--third-background-color);
+    color: var(--primary-white-color);
+}
+.project-title {
+    color: var(--title-text-color);
+}
+.project-text {
+    color: var(--primary-text-color);
+}
+.btn, .hero-btn {
+    cursor: pointer;
 }
