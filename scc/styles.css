@@ -1,34 +1,44 @@
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196f3;
+    --primary-background-color: #E5E5E5;
+    --second-background-color: #2F303A;
+    --third-background-color: #ffffff;
+
+}
+
 .page {
-    color: #757575;
-    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
 }
 .list {
     list-style: none;
 }
 .header {
-    background-color: #ffffff;
+    background-color: var(--third-background-color);
 }
 
 .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .link-logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .nav-page .link:hover,
 .nav-page .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .contact {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .contact:hover, .contact:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .hero {
-    background: #2F303A;
+    background: var(--second-background-color);
 }
 .hero-title {
     color: #ffffff;
@@ -36,13 +46,41 @@
 }
 .hero-btn {
     color: #ffffff;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 .section-title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .service-title {
-    color:#212121;
+    color:var(--title-text-color);
+}
+.team {
+    background-color: #F5F4FA;
+}
+.team-title {
+    color: var(--title-text-color);
+}
+.team-foto {
+    background-color: var(--third-background-color);
+}
+.foto-title {
+    color: var(--title-text-color);
+}
+.footer {
+    background-color: var(--second-background-color);
+}
+.footer .logo {
+    color: #ffffff;
+}
+.link-address {
+    color: #ffffff;
+}
+.link-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+.link-address:hover, .link-address:focus,
+.link-contact:hover, .link-contact:focus {
+    color: var(--accent-color);
 }
