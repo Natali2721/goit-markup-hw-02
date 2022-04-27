@@ -6,6 +6,7 @@
     --second-background-color: #2F303A;
     --primary-white-color: #ffffff;
     --third-background-color: #f5f4fa;
+    --logo-text-color: #000000;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
     list-style: none;
 }
 .nav .link-logo {
-    color: var(--title-text-color);
+    color: var(--logo-text-color);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
