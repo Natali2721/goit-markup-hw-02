@@ -32,12 +32,14 @@ body {
     color: var(--accent-color);
 }
 .nav-page, .contact {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+}
+.nav .link {
+    color: var(--title-text-color);
 }
 .nav-page .link:hover,
 .nav-page .link:focus,
@@ -56,15 +58,41 @@ body {
 }
 .hero-title {
     color: var(--primary-white-color);
-    
+    font-style: normal;  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .hero-btn {
     color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    background-color: var(--accent-color);  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .section-title {
     color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.text {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .service-title {
