@@ -97,27 +97,78 @@ body {
 
 .service-title {
     color:var(--title-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .team {
     background-color: var(--third-background-color);
 }
 .team-title {
     color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-foto {
+    background-color: var(--primary-background-color);
 }
 .foto-title {
     color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+.team-foto .text {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.18;
+     /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .footer {
     background-color: var(--second-background-color);
 }
-.footer .logo {
+.logo-footer {
     color: var(--primary-white-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+     /* identical to box height */
+    letter-spacing: 0.03em;
+}
+.logo-footer .logo{
+    color: var(--accent-color);
 }
 .link-address {
     color: var(--primary-white-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .link-contact {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .link-address:hover, .link-address:focus,
 .link-contact:hover, .link-contact:focus {
