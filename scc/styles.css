@@ -2,36 +2,48 @@
     --title-text-color: #212121;
     --primary-text-color: #757575;
     --accent-color: #2196f3;
-    --primary-background-color: #E5E5E5;
+    --primary-background-color: #ffffff;
     --second-background-color: #2F303A;
     --primary-white-color: #ffffff;
     --third-background-color: #f5f4fa;
-
 }
 
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-background-color);
+    font-family: 'Roboto', 'Raleway', 'Arial', sans-serif;
 }
+
 .list {
     list-style: none;
 }
-.header {
-    background-color: var(--primary-white-color);
+    
+.nav .link-logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px; 
+    letter-spacing: 0.03em;
 }
 
-.link {
-    color: var(--title-text-color);
-}
-.link-logo {
+.link-logo .logo {
     color: var(--accent-color);
+}
+.nav-page, .contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 .nav-page .link:hover,
 .nav-page .link:focus,
 .nav-page .link.current {
     color: var(--accent-color);
 }
-
 .contact {
     color: var(--primary-text-color);
 }
@@ -63,9 +75,6 @@ body {
 }
 .team-title {
     color: var(--title-text-color);
-}
-.team-foto {
-    background-color: var(--primary-white-color);
 }
 .foto-title {
     color: var(--title-text-color);
